@@ -16,6 +16,9 @@ let addToNumOne = 35;
       console.log(subToNumOne)
     document.getElementById("bank").innerHTML += " $235.87 -= $170 = $" + subToNumOne ;
 
+    document.getElementById("addJacket").innerHTML += " Add Jacket = " + !70;
+  
+
 
     document.getElementById("totalPizza").innerHTML += "4 x 8 = " + 4 * 8;
     document.getElementById("totalStudents").innerHTML += "32 / 2.5 = " + 32 / 2.5;
