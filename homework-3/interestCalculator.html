@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div style="background-color: gray">
+      <label style="font-family: 'Times New Roman', Times, serif"
+        >Principle:</label
+      >
+
+      <input type="number" id="principle" /><br />
+
+      <label style="font-family: 'Times New Roman', Times, serif">Rate:</label>
+
+      <input type="number" id="rate" /><br />
+
+      <label style="font-family: 'Times New Roman', Times, serif">Time:</label>
+
+      <input type="number" id="time" /><br />
+
+      <input
+        type="button"
+        style="background-color: red; color: aliceblue"
+        id="interest"
+        onclick="calctotalInterest()"
+        value="Calculate"
+      />
+    </div>
+
+    <div style="background-color: gray">
+      <p id="results">Wtih a beginning principle of</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
