@@ -7,7 +7,7 @@ const classroom = {
             document.getElementById("students").innerHTML += studentName + "<br />";
         });
     },
-    /*for (let i = 0; i , classroom.students.length - 1; i++) {
+    /*for (let i = 0; i < classroom.students.length; i++) {
         const studentName = classroom.students[i];
         document.getElementById("students").innerHTML += studentName + "<br />";
 
