@@ -33,7 +33,7 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
     });
 
     document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
-        const thirdChoiceAction = prompt(`A
+        const thirdChoiceAction = prompt(`This is a test-
             \n (Click the number of your choice)
             \n 1. Oh noes
             \n 2. EEEEEEEE`);
@@ -41,10 +41,10 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
             
             
             if (thirdChoiceAction === "1") {
-              document.getElementById("story").innerHTML += "BORK";
+              document.getElementById("story").innerHTML += "Intense Barking Sounds";
               // Other Option
             } else {
-              document.getElementById("story").innerHTML += "Bork";
+              document.getElementById("story").innerHTML += "OOOO Spooky Ghost";
               // Other Option
             }
         });
