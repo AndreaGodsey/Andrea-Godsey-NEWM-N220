@@ -21,6 +21,26 @@ const firstChoiceAction = prompt(`Snuggles has ran into these very woods! But wh
 });
 
 document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
+  const finalChoiceAction = prompt(`As you stride through the path in the woods, you hear a soft chittering continue to follow your every move. The chittering turned to tapping as you gaze upwards at the trees. Your heartrate begins to rise, for that chittering and tapping sounded close. However, it appears to not only follow you, but wishes to lead you off the path. What shall you do, dear Player? Shall you follow this siren's call to find answers? Wish to wait for a moment to process its message? Or continue onward, ignoring such animal tendencies.
+      \n (Enter the number of your choice)
+      \n 1. Follow the sound 
+      \n 2. Stand perfectly still
+      \n 3. Refuse to listen`);
+      
+      if (finalChoiceAction === "1") {
+        document.getElementById("story").innerHTML += "You choose to listen to this creature's message for only a moment. The twittering leads you forward, just as before. Yet, as suddenly as before, the twittering moved quickly to the right. You stand still for a moment, wondering if this creature can lead you to your friend. You then shake your head, returning to your original path. The message did not yield enough results to satisfy you, as you continue onward. ";
+        // Other Option
+      } else if (finalChoiceAction === "2")  {
+          document.getElementById("story").innerHTML += "You decide to stand in place, gazing at your surroundings. The leaves rustled slightly as the twittering continued quietly. You wait for a few minutes until the twittering and tapping began to seize. Your messenger has given up due to your stubborness, as you decide to press on your current path. ";
+          // Other Option
+        }
+        else {
+            document.getElementById("story").innerHTML += "You convince yourself that this is only a mere animal trick. The creature is only minding their business, continuing its everyday life as usual. You pay this messenger no heed as you continue on your current path. ";
+            // Other Option
+          }
+  });
+
+document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
     const secondChoiceAction = prompt(`(Scroll to seal your fate, dear Player) You come across three paths once again, each containing red paw prints of your lost fellow. You are certain these belong to your faitful friend, but he appears he went into a frenzy while defending your honor against the wretched raven! One path before you is brighter in light, but few pawprints dot the path forward. The other path leads into darkness, but contains the most of your friend's red pawsprints. Finally, the dim path continues on, but no prints wait before you. 
         \n (Enter the number of your choice)
         \n 1. Choose the Safer Path
