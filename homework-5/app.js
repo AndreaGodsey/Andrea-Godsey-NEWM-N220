@@ -101,5 +101,9 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
                       // Other Option
                     }
             });
+
+document.getElementById("restartGame").addEventListener("click", function() {
+              location.reload();
+          });
     
     
