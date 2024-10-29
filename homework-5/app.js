@@ -21,16 +21,16 @@ const firstChoiceAction = prompt(`Snuggles has ran into these very woods! But wh
 });
 
 document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
-  const finalChoiceAction = prompt(`As you stride through the path in the woods, you hear a soft chittering continue to follow your every move. The chittering turned to tapping as you gaze upwards at the trees. Your heartrate begins to rise, for that chittering and tapping sounded close. However, it appears to not only follow you, but wishes to lead you off the path. What shall you do, dear Player? Shall you follow this siren's call to find answers? Wish to wait for a moment to process its message? Or continue onward, ignoring such animal tendencies.
+  const secondChoiceAction = prompt(`As you stride through the path in the woods, you hear a soft chittering continue to follow your every move. The chittering turned to tapping as you gaze upwards at the trees. Your heartrate begins to rise, for that chittering and tapping sounded close. However, it appears to not only follow you, but wishes to lead you off the path. What shall you do, dear Player? Shall you follow this siren's call to find answers? Wish to wait for a moment to process its message? Or continue onward, ignoring such animal tendencies.
       \n (Enter the number of your choice)
       \n 1. Follow the sound 
       \n 2. Stand perfectly still
       \n 3. Refuse to listen`);
       
-      if (finalChoiceAction === "1") {
+      if (secondChoiceAction === "1") {
         document.getElementById("story").innerHTML += "You choose to listen to this creature's message for only a moment. The twittering leads you forward, just as before. Yet, as suddenly as before, the twittering moved quickly to the right. You stand still for a moment, wondering if this creature can lead you to your friend. You then shake your head, returning to your original path. The message did not yield enough results to satisfy you, as you continue onward. ";
         // Other Option
-      } else if (finalChoiceAction === "2")  {
+      } else if (secondChoiceAction === "2")  {
           document.getElementById("story").innerHTML += "You decide to stand in place, gazing at your surroundings. The leaves rustled slightly as the twittering continued quietly. You wait for a few minutes until the twittering and tapping began to seize. Your messenger has given up due to your stubborness, as you decide to press on your current path. ";
           // Other Option
         }
@@ -41,7 +41,7 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
   });
 
 document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
-    const secondChoiceAction = prompt(`(Scroll to seal your fate, dear Player) You come across three paths once again, each containing red paw prints of your lost fellow. You are certain these belong to your faitful friend, but he appears he went into a frenzy while defending your honor against the wretched raven! One path before you is brighter in light, but few pawprints dot the path forward. The other path leads into darkness, but contains the most of your friend's red pawsprints. Finally, the dim path continues on, but no prints wait before you. 
+    const thirdChoiceAction = prompt(`(Scroll to seal your fate, dear Player) You come across three paths once again, each containing red paw prints of your lost fellow. You are certain these belong to your faitful friend, but he appears he went into a frenzy while defending your honor against the wretched raven! One path before you is brighter in light, but few pawprints dot the path forward. The other path leads into darkness, but contains the most of your friend's red pawsprints. Finally, the dim path continues on, but no prints wait before you. 
         \n (Enter the number of your choice)
         \n 1. Choose the Safer Path
         \n 2. Choose the Darker Path
@@ -49,10 +49,10 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
         
         
         
-        if (secondChoiceAction === "1") {
+        if (thirdChoiceAction === "1") {
           document.getElementById("story").innerHTML += "The safest path was your heart's faithful plea. Your little companion did not leave much for you to find, but all that matters now is to press on. The evening light continues to dim, revealing the glowing white specks in the sky. The trees continued to provide you cover from this small light. You realize there are no more paw prints left to follow. Nevertheless, you feel less apprehensive, willing to even call out your companion's name. You call for Snuggles, your desperate plea echoing in the forest. Suddenly, there came several noises in front of you. In many different directions, animals responded to your call. Three paths lay ahead once more. 'Which animal sounds like your small fellow', you wonder to yourself";
           // Other Option
-        } else if (secondChoiceAction === "2")  {
+        } else if (thirdChoiceAction === "2")  {
           document.getElementById("story").innerHTML += "The darkest path, despite your heartrates shaken pleas for other options, you chose to follow. With fear in your step, but determination in mind, you follow the red prints. You gaze straight-forward, squinting against the dimly lit path. The fog drifted subtly into your view, gradually covering what little light you had left. You wanted to leave. You wanted to run. There were no more pawprints that could be followed on your path. You could not stop your sudden stirring in your vocal chords as you released you true emotion. You call for Snuggles loudly. The animals waiting in the darkness answered your plea. 'Which animal sounds like your small fellow', you wonder to yourself.";
           // Other Option
         }
@@ -63,16 +63,16 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
     });
 
     document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
-        const thirdChoiceAction = prompt(`The animal noises contained screeches of woe and displeasure. Your voice was slienced swiftly by your hand, grasping your mouth. You softly apologize, but find that the animals would not settle their caterwauls. There was a sudden rustle of bushes, shaking rapidly in front of you. You slowly back away from the sudden shivers from the bushes. And yet the rustling contained a familiarity. What is your best choice of action, dear Player?
+        const fourthChoiceAction = prompt(`The animal noises contained screeches of woe and displeasure. Your voice was slienced swiftly by your hand, grasping your mouth. You softly apologize, but find that the animals would not settle their caterwauls. There was a sudden rustle of bushes, shaking rapidly in front of you. You slowly back away from the sudden shivers from the bushes. And yet the rustling contained a familiarity. What is your best choice of action, dear Player?
             \n (Enter the number of your choice)
             \n 1. Hide behind the nearest tree
             \n 2. Pick up a stick from the ground to defend yourself
             \n 3. Drop to the ground and blend in with the leaves`);
             
-            if (thirdChoiceAction === "1") {
+            if (fourthChoiceAction === "1") {
               document.getElementById("story").innerHTML += "You slowly step towards a tree behind you, quickly grabbing the tough tree trunk. As you watch the leaves shake rapidly, you see a small figure rush directly towards you. Before you could react, the creature bats at your legs excitedly, its ice blue eyes filled with glee. Your heart melts, freeing itself from fear's cold embrace. Little Snuggles, white fluff in all, has returned to your arms! Now to return to your cozy abode! To your warm kitchen! The hot cocoa and your dramas await your attention! All is now well.";
               // Other Option
-            } else if (thirdChoiceAction === "2")  {
+            } else if (fourthChoiceAction === "2")  {
                 document.getElementById("story").innerHTML += "You pick up the stick from the ground as you steady your rapid heartbeat. The time for running is over as you prepare to face the creature that is preparing its attack. You raise your stick, like a true warrior. The figure lunges from the cover of bushes, batting at your legs eagerly. The cool, ice blue eyes gazed up at you. Its soft yet playful yips made your heart melt free from fear's frozen grip. You reach down to pet the soft white ball of fluff. Little Snuggles has returned to you safely, but not before stealing your weapon playfully! Now to return to your cozy abode! To your warm kitchen where you steaming cup of tea awaits its exhausted owner and playful pup. All is now well.";
                 // Other Option
               }
