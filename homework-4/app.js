@@ -21,7 +21,7 @@ const firstChoiceAction = prompt(`Snuggles has ran into these very woods! But wh
 });
 
 document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
-    const secondChoiceAction = prompt(`You come across three paths once again, each containing red paw prints of your lost fellow. You are certain these belong to your faitful friend, but he appears he went into a frenzy while defending your honor against the wretched sparrow! One path before you is brighter in light, but few pawprints dot the path forward. The other path leads into darkness, but contains the most of your friend's red pawsprints. Finally, the dim path continues on, but no prints wait before you. 
+    const secondChoiceAction = prompt(`(Scroll to seal your fate, dear Player) You come across three paths once again, each containing red paw prints of your lost fellow. You are certain these belong to your faitful friend, but he appears he went into a frenzy while defending your honor against the wretched sparrow! One path before you is brighter in light, but few pawprints dot the path forward. The other path leads into darkness, but contains the most of your friend's red pawsprints. Finally, the dim path continues on, but no prints wait before you. 
         \n (Enter the number of your choice)
         \n 1. Choose the Safer Path
         \n 2. Choose the Darker Path
@@ -63,7 +63,7 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
         });
 
         document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
-            const finalChoiceAction = prompt(`I see that you thought this was over...that you head home to your cozy cottage, dear Player? What have I said at the beginning? Are you willing to face your end? And what about those bloody pawprints? They came from somewhere. Now it is time to face your choices. Some may also say, greet the consequences of your actions as they come. Your choices, dear Player, have affected how you defeat your beast. You are no longer alone as a creature that has haunted you every night since you began your life as a widower. A flashlight sits now towards your right, your only tool that this narrator may offer... What shall you, since you have now fallen into its trap, dear Player?
+            const finalChoiceAction = prompt(`I see that you thought this was over...that you head home to your cozy cottage, dear Player? What have I said at the beginning? Are you willing to face your end? And what about those bloody pawprints? They came from somewhere. Now it is time to face your choices. Some may also say, greet the consequences of your actions as they come. Your choices, dear Player, have affected how you defeat your beast. You are no longer alone as a creature that has haunted you every night since you began your life as a widower. A flashlight sits now towards your right, your only tool that this narrator may offer... What shall you, since you have now fallen into its trap, dear Player? (Scroll to seal your fate, dear Player)
                 \n (Enter the number of your choice)
                 \n 1. Run back home/Use Flashlight
                 \n 2. Throw Snuggles
