@@ -1,5 +1,5 @@
 document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
-const firstChoiceAction = prompt(`Snuggles has ran into these very woods! But which way did he go? Follow your heart, dear player! Your puppy's life depends on it!
+const firstChoiceAction = prompt(`I see you have understood the urgency of your young fellow's safety! You enter the woods, tattered leash in hand! Snuggles has ran into these very woods! But which way did he go? Follow your heart, dear player! Your puppy's life depends on it!
     \n (Enter the number of your choice)
     \n 1. Choose the Left Path
     \n 2. Choose the Right Path
@@ -62,7 +62,7 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
           }
     });
 
-    document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
+document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
         const fourthChoiceAction = prompt(`The animal noises contained screeches of woe and displeasure. Your voice was slienced swiftly by your hand, grasping your mouth. You softly apologize, but find that the animals would not settle their caterwauls. There was a sudden rustle of bushes, shaking rapidly in front of you. You slowly back away from the sudden shivers from the bushes. And yet the rustling contained a familiarity. What is your best choice of action, dear Player?
             \n (Enter the number of your choice)
             \n 1. Hide behind the nearest tree
@@ -82,7 +82,7 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
                 }
         });
 
-        document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
+document.getElementById("makeyourchoiceplayer").addEventListener("click", function() {
             const finalChoiceAction = prompt(`I see that you thought this was over...that you head home to your cozy cottage, dear Player? What have I said at the beginning? Are you willing to face your end? And what about those bloody pawprints? They came from somewhere. Now it is time to face your choices. Some may also say, greet the consequences of your actions as they come. Your choices, dear Player, have affected how you defeat your beast. You are no longer alone as a creature that has haunted you every night since you began your life as a widower. A flashlight sits now towards your right, your only tool that this narrator may offer... What shall you do, since you have now fallen into its trap, dear Player? (Scroll to seal your fate, dear Player)
                 \n (Enter the number of your choice)
                 \n 1. Run back home/Use Flashlight
@@ -102,8 +102,50 @@ document.getElementById("makeyourchoiceplayer").addEventListener("click", functi
                     }
             });
 
+document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
+              const fifthChoiceAction = prompt(`You have decided to hurry back to your cottage for supplies. This is a dark forest after all, and it is close to the evening! Before you leave, you grab your backpack. However, you have only recently moved in, therefore you supplies are scarce. Which item is the most important to you to bring?
+                  \n (Enter the number of your choice)
+                  \n 1. Snuggles's Dog Toy
+                  \n 2. Flashlight
+                  \n 3. Hatchet`);
+                  
+                  if (fifthChoiceAction === "1") {
+                    document.getElementById("story").innerHTML += "You decide to bring along Snuggles's dog toy on your trip. After all, you can lure Snuggles back to with a small squeak from Mr.Gopher. With heart in your throat, you leave cottage and enter the chilly evening air. The trees rustled in your direction, beckoning you to enter its unruly realm. You enter these woods, finding that the sun has long set. The only light in the area now is the dimly lit fireflies waitng for you. You come across three paths, but decide to continue straight. You could not see anything, and decided to go through the areas that you can see.";
+                    // Other Option
+                  } else if (fifthChoiceAction === "2")  {
+                      document.getElementById("story").innerHTML += "You decided to bring the flashlight along. After all, the sun has only now decided to set. You step outside to see the dark and gloomy forest welcome you into its moonlight shadow realm. You shine your radiant light into the depths, approaching down path ahead. You don't want to stray too far, so you decide to continue straight on passed the two other paths ahead of you. ";
+                      // Other Option
+                    }
+                    else {
+                        document.getElementById("story").innerHTML += "You chose to bring the hatchet. Of course you need to defend yourself against the creatures that lurk in the shadowy forest. Night fall had already approached as you step outside your comfy abode. You enter the dimly lit forest as the fireflys wavered in front of you. You clutch the hatchet as you continue straight down the path, not even glancing at the other two paths before you";
+                        // Other Option
+                      }
+              });
+
+document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
+                const sixthChoiceAction = prompt(`As the night approaches, the fog begins to reach your waist. The animals have come out to hunt, looking to feast on unwanted travelers. You suddenly hear a loud chittering sound coming from the right side of the path. There was a soft tapping that seemed to be leading you away from the path. What shall you do, dear Player?
+                    \n (Enter the number of your choice)
+                    \n 1. Follow the noise cautiously
+                    \n 2. Run away from the noise
+                    \n 3. Do not follow the noise`);
+                    
+                    if (sixthChoiceAction === "1") {
+                      document.getElementById("story").innerHTML += "You hear that soft sound and your heart skips a beat. It sounded unnatural. Irrational. Unnerving. Your steps turned quickly to the left as you ran away from the sound. The crunches beneath your shoes became the sound of crashing waves. You hold your backpack straps tightly as the sound of the creature became nothing but a nightmare. No longer did those tapping sounds harm your fragile ears. Not evermore.  ";
+                      // Other Option
+                    } else if (sixthChoiceAction === "2")  {
+                        document.getElementById("story").innerHTML += "You clenched the tool of your choice in hand, grimacing. You tire of that sound. That wretched sound that dares pierce your ears. That tapping. That rapping. You continue onward with force, crushing the leaves beneath your shoes in determination. No sound, no messenger shall ever dare graze your ears with such a terrible sound.  ";
+                        // Other Option
+                      }
+                      else {
+                          document.getElementById("story").innerHTML += "You chose to bring the hatchet. Of course you need to defend yourself against the creatures that lurk in the shadowy forest. Night fall had already approached as you step outside your comfy abode. You enter the dimly lit forest as the fireflys wavered in front of you. You clutch the hatchet as you continue straight down the path, not even glancing at the other two paths before you";
+                          // Other Option
+                        }
+                });
+
+
+
 document.getElementById("restartGame").addEventListener("click", function() {
-              location.reload();
+    location.reload();
           });
     
     
