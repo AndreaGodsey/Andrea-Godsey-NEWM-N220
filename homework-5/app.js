@@ -125,19 +125,19 @@ document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", fun
 document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
                 const sixthChoiceAction = prompt(`As the night approaches, the fog begins to reach your waist. The animals have come out to hunt, looking to feast on unwanted travelers. You suddenly hear a loud chittering sound coming from the right side of the path. There was a soft tapping that seemed to be leading you away from the path. What shall you do, dear Player?
                     \n (Enter the number of your choice)
-                    \n 1. Follow the noise cautiously
-                    \n 2. Run away from the noise
-                    \n 3. Do not follow the noise`);
+                    \n 1. Follow the noise confidently
+                    \n 2. Follow the noise nervously
+                    \n 3. Follow the noise in anger`);
                     
                     if (sixthChoiceAction === "1") {
                       document.getElementById("story").innerHTML += "You hear the tapping sound that has haunted your dreams. The tapping. The rapping. On your cottage door at night. The haunting loneliness it brings. And yet, you were desperate to find your companion. Snuggles is all you have left. You step off the path slowly, patient as the slick leaves grazed the bottom of your shoes. With your confidence tool in hand, you follow the soft tapping and chittering of the messenger. You hope that this sound can lead you true.  ";
                       // Other Option
                     } else if (sixthChoiceAction === "2")  {
-                        document.getElementById("story").innerHTML += "You hear a soft sound and your heart skips a beat. The tapping of the wood grazing that beak. The chittering beckoning you to his post. It sounded unnatural. Irrational. Unnerving. Your steps turned quickly to the left as you ran away from the sound. The crunches beneath your shoes became the sound of crashing waves. You hold your backpack straps tightly as the sound of the creature became nothing but a nightmare. No longer did those tapping sounds harm your fragile ears. Not evermore. ";
+                        document.getElementById("story").innerHTML += " You hear a soft sound and your heart skips a beat. The tapping of the wood grazing that beak. The chittering beckoning you to his post. It sounded unnatural. Irrational. Unnerving. Your steps turned quickly to the right as you running towards the sound. The crunches beneath your shoes became the sound of crashing waves. You hold your backpack straps tightly as the sound of the creature remained steady in sound as you continue to follow its hypnotic sound.";
                         // Other Option
                       }
                       else {
-                          document.getElementById("story").innerHTML += "You clenched the tool of your choice in hand, grimacing. You tire of that sound. That wretched sound that dares pierce your ears. That tapping. That rapping. You continue onward with force, crushing the leaves beneath your shoes in determination. No sound, no messenger shall ever dare graze your ears with such a terrible sound.  ";
+                          document.getElementById("story").innerHTML += "You clenched the tool of your choice in hand, grimacing. You tire of that sound. That wretched sound that dares pierce your ears. That tapping. That rapping. You turned angrily towards the sound, gripping your tool of choice. You tire of this sound. But you follow it, almost demanding that sound to return what was stolen from you.   ";
                           // Other Option
                         }
                 });
@@ -149,19 +149,19 @@ document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", fun
                       \n 3. Listen for more sounds`);
                       
                       if (seventhChoiceAction === "1") {
-                        document.getElementById("story").innerHTML += "You hear the tapping sound that has haunted your dreams. The tapping. The rapping. On your cottage door at night. The haunting loneliness it brings. And yet, you were desperate to find your companion. Snuggles is all you have left. You step off the path slowly, patient as the slick leaves grazed the bottom of your shoes. With your confidence tool in hand, you follow the soft tapping and chittering of the messenger. You hope that this sound can lead you true.  ";
+                        document.getElementById("story").innerHTML += "You call to Snuggles, but sadly do not receive a response as you continue through the gloomy wood. The screeching no longer gave you hints as you wondered aimlessly forward, desperate for your companion's safe return.";
                         // Other Option
                       } else if (seventhChoiceAction === "2")  {
-                          document.getElementById("story").innerHTML += "You hear a soft sound and your heart skips a beat. The tapping of the wood grazing that beak. The chittering beckoning you to his post. It sounded unnatural. Irrational. Unnerving. Your steps turned quickly to the right as you running towards the sound. The crunches beneath your shoes became the sound of crashing waves. You hold your backpack straps tightly as the sound of the creature remained steady in sound as you continue to follow its hypnotic sound. ";
+                          document.getElementById("story").innerHTML += "You call out to the creature of the wood, threatening that if it ever harms Snuggles, it will regret its decision. You do not hear a response as you wondered angrily through the gloomy wood. ";
                           // Other Option
                         }
                         else {
-                            document.getElementById("story").innerHTML += "You clenched the tool of your choice in hand, grimacing. You tire of that sound. That wretched sound that dares pierce your ears. That tapping. That rapping. You turned angrily towards the sound, gripping your tool of choice. You tire of this sound. But you follow it, almost demanding that sound to return what was stolen from you.  ";
+                            document.getElementById("story").innerHTML += "You say nothing, still hoping that the creature will come back for a moment. Now was not the time to feel fear or anger. Snuggles needed to be found...and your hope continued to fuel you as you wandered the wood cautiously. ";
                             // Other Option
                           }
                   });
 document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
-                    const eighthChoiceAction = prompt(` As you follow the chittering animal's voice, you notice that the forest around you has become dark and twisted. The beautiful thorn bushes become a twisted mass of vines. You grip your tool tightly in hand as you followed the sounds. Finally, you come across a peaceful clearing, you hear the sounds of angry animals fighting. One of these animals does sound familiar. How will you respond to this encounter, dear Player?
+                    const eighthChoiceAction = prompt(` As you follow the chittering animal's voice, you notice that the forest around you has become dark and twisted. The beautiful thorn bushes become a twisted mass of vines. You grip your tool tightly in hand as you followed the sounds. Finally, you come across an empty clearing, you hear the sounds of angry animals fighting nearby. One of these animals does sound familiar. How will you respond to this encounter, dear Player?
                         \n (Enter the number of your choice)
                         \n 1. Rush towards the area with your tool in hand
                         \n 2. Cautiously approach the area with tool in hand
@@ -180,7 +180,7 @@ document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", fun
                             }
                     });
 document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
-                      const ninthChoiceAction = prompt(` You wanted to express your displeasure. Ask this raven questions as to why he was here-you were a widower now. You wanted to be left alone. You and your dog. The raven had no place near you. How would you like to voice your complaint, dear Player?
+                      const ninthChoiceAction = prompt(` You wanted to express your displeasure, for the creature was none other than the evil raven that follows your every move. This large creature wishes to make your life difficult and melancholy. Ask this raven questions as to why he was here-you were a widower now. You wanted to be left alone. You and your dog. The raven had no place near you. How would you like to voice or express your complaint, dear Player?
                           \n (Enter the number of your choice)
                           \n 1. You wish to shout at the raven
                           \n 2. You are unable to speak
@@ -201,7 +201,7 @@ document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", fun
 
 document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
                         const tenthChoiceAction = prompt(` You have had enough of his constant reminders. His chittering and tapping. What does he know? Your still in pain, and this creature continues to thrive off of it. It is time to put an end to this creature. It may pick and mame at your very being, but Snuggles deserves no such treatment. Your weapon of choice, dear Player. You may use it now.
-                            \n (Enter the number of your choice)
+                            \n (Enter the tool you had chosen at the beginning)
                             \n 1. Throw the dog toy
                             \n 2. Attack using the flashlight
                             \n 3. Rush forward with the hatchet in hand`);
