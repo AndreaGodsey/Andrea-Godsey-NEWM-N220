@@ -130,19 +130,94 @@ document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", fun
                     \n 3. Do not follow the noise`);
                     
                     if (sixthChoiceAction === "1") {
-                      document.getElementById("story").innerHTML += "You hear that soft sound and your heart skips a beat. It sounded unnatural. Irrational. Unnerving. Your steps turned quickly to the left as you ran away from the sound. The crunches beneath your shoes became the sound of crashing waves. You hold your backpack straps tightly as the sound of the creature became nothing but a nightmare. No longer did those tapping sounds harm your fragile ears. Not evermore.  ";
+                      document.getElementById("story").innerHTML += "You hear the tapping sound that has haunted your dreams. The tapping. The rapping. On your cottage door at night. The haunting loneliness it brings. And yet, you were desperate to find your companion. Snuggles is all you have left. You step off the path slowly, patient as the slick leaves grazed the bottom of your shoes. With your confidence tool in hand, you follow the soft tapping and chittering of the messenger. You hope that this sound can lead you true.  ";
                       // Other Option
                     } else if (sixthChoiceAction === "2")  {
-                        document.getElementById("story").innerHTML += "You clenched the tool of your choice in hand, grimacing. You tire of that sound. That wretched sound that dares pierce your ears. That tapping. That rapping. You continue onward with force, crushing the leaves beneath your shoes in determination. No sound, no messenger shall ever dare graze your ears with such a terrible sound.  ";
+                        document.getElementById("story").innerHTML += "You hear a soft sound and your heart skips a beat. The tapping of the wood grazing that beak. The chittering beckoning you to his post. It sounded unnatural. Irrational. Unnerving. Your steps turned quickly to the left as you ran away from the sound. The crunches beneath your shoes became the sound of crashing waves. You hold your backpack straps tightly as the sound of the creature became nothing but a nightmare. No longer did those tapping sounds harm your fragile ears. Not evermore. ";
                         // Other Option
                       }
                       else {
-                          document.getElementById("story").innerHTML += "You chose to bring the hatchet. Of course you need to defend yourself against the creatures that lurk in the shadowy forest. Night fall had already approached as you step outside your comfy abode. You enter the dimly lit forest as the fireflys wavered in front of you. You clutch the hatchet as you continue straight down the path, not even glancing at the other two paths before you";
+                          document.getElementById("story").innerHTML += "You clenched the tool of your choice in hand, grimacing. You tire of that sound. That wretched sound that dares pierce your ears. That tapping. That rapping. You continue onward with force, crushing the leaves beneath your shoes in determination. No sound, no messenger shall ever dare graze your ears with such a terrible sound.  ";
                           // Other Option
                         }
                 });
+document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
+                  const seventhChoiceAction = prompt(` As you continue to follow the sound, no matter your feelings, you do find this suspicious. This sound that hates you and pesters you...never seemed to care...nevermore...Suddenly, the sounds stopped, just as suddenly as they had started. You swallow nervously, hoping that sound suddenly comes back. Just as much as you hated it...you begged it to return. However, you see something ahead...a small clumo of white fluff, wavering in the wind. You rush over to it, recognizing the coat. Your companion has lost something important. It is time to return it to him. You stand tall, holding your weapon of choice. How do you respond to such a sudden discovery?
+                      \n (Enter the number of your choice)
+                      \n 1. Call for Snuggles
+                      \n 2. Threaten the creature who harmed Snuggles
+                      \n 3. Listen for more sounds`);
+                      
+                      if (seventhChoiceAction === "1") {
+                        document.getElementById("story").innerHTML += "You hear the tapping sound that has haunted your dreams. The tapping. The rapping. On your cottage door at night. The haunting loneliness it brings. And yet, you were desperate to find your companion. Snuggles is all you have left. You step off the path slowly, patient as the slick leaves grazed the bottom of your shoes. With your confidence tool in hand, you follow the soft tapping and chittering of the messenger. You hope that this sound can lead you true.  ";
+                        // Other Option
+                      } else if (seventhChoiceAction === "2")  {
+                          document.getElementById("story").innerHTML += "You hear a soft sound and your heart skips a beat. The tapping of the wood grazing that beak. The chittering beckoning you to his post. It sounded unnatural. Irrational. Unnerving. Your steps turned quickly to the right as you running towards the sound. The crunches beneath your shoes became the sound of crashing waves. You hold your backpack straps tightly as the sound of the creature remained steady in sound as you continue to follow its hypnotic sound. ";
+                          // Other Option
+                        }
+                        else {
+                            document.getElementById("story").innerHTML += "You clenched the tool of your choice in hand, grimacing. You tire of that sound. That wretched sound that dares pierce your ears. That tapping. That rapping. You turned angrily towards the sound, gripping your tool of choice. You tire of this sound. But you follow it, almost demanding that sound to return what was stolen from you.  ";
+                            // Other Option
+                          }
+                  });
+document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
+                    const eighthChoiceAction = prompt(` As you follow the chittering animal's voice, you notice that the forest around you has become dark and twisted. The beautiful thorn bushes become a twisted mass of vines. You grip your tool tightly in hand as you followed the sounds. Finally, you come across a peaceful clearing, you hear the sounds of angry animals fighting. One of these animals does sound familiar. How will you respond to this encounter, dear Player?
+                        \n (Enter the number of your choice)
+                        \n 1. Rush towards the area with your tool in hand
+                        \n 2. Cautiously approach the area with tool in hand
+                        \n 3. Crawl towards the area, holding your tool in the area`);
+                        
+                        if (eighthChoiceAction === "1") {
+                          document.getElementById("story").innerHTML += "You recognize one of those sounds of anger coming from your faithful fellow. You break through the bushes to find him snarling at a large creature. The creature was wounded, his wing dripping with a sticky red substance. It turns to you. You clutch your item nervously as the creature turns completely towards you. It was calm, its black souless eyes appearing emotionless towards you. The raven was back. It had found and followed you here. Snuggles rushes in front of yoi, continuing to bark at the creature. You stood very still, stunned at the creature before you. ";
+                          // Other Option
+                        } else if (eighthChoiceAction === "2")  {
+                            document.getElementById("story").innerHTML += "You slowly approach the bushes to see the two animals that were clearly having a disagreement. The creature was...a large black bird. A bird you had hoped to never see again. To nevermore hear its tapping...its constant reminding. The bird turned slowly to your direction. Snuggles has sensed your fear, rushing towards you in quick defense. You slowly stand, for all you can do is stare into those pitch black eyes. They have been awaiting your gaze...dare say he has been hoping to find you...forevermore. ";
+                            // Other Option
+                          }
+                          else {
+                              document.getElementById("story").innerHTML += "You get down on your hands and knees, crawling slowly towards the bushes. This was not very effective, for the loud rustling of leaves gave way your presence. There was a sudden silence as tension hung in the air. You peak through the bushes, only to find your eager fluffy friend licking your face. You quickly sit up, smiling sheepishly at the sudden change in tone. You hold snuggles, caressing his cheek lovingly. Your friend was here all along...with it. You stand slowly as you lock eyes with the creature. The bird...you had hoped to never see again. Its two black eyes were the abyss...and you were close to falling into it.";
+                              // Other Option
+                            }
+                    });
+document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
+                      const ninthChoiceAction = prompt(` You wanted to express your displeasure. Ask this raven questions as to why he was here-you were a widower now. You wanted to be left alone. You and your dog. The raven had no place near you. How would you like to voice your complaint, dear Player?
+                          \n (Enter the number of your choice)
+                          \n 1. You wish to shout at the raven
+                          \n 2. You are unable to speak
+                          \n 3. You meerly express a digusted scowl in return`);
+                          
+                          if (ninthChoiceAction === "1") {
+                            document.getElementById("story").innerHTML += "You felt all your emotions come out of you at once. Why was the raven here? Why follow you? You wanted peace! You needed peace! No more constant reminders of your old life. The past happiness and fortune you wished that could return. It won't. And it has left this thing in its place! The raven meerly says nothing, as you continue to screech for it to never return...to nevermore.  ";
+                            // Other Option
+                          } else if (ninthChoiceAction === "2")  {
+                              document.getElementById("story").innerHTML += "You meerily stare at the raven in pure shock. You could not believe it has found. It was a bird. A mere small bird that hung by your window in the city. You desperatley begged it not to follow you. But it had. It had followed you...the entitled thing felt it could be near you. And now this bird-this creature- was much larger than that small bird of the city. It has returned, ready to greet you forevermore. ";
+                              // Other Option
+                            }
+                            else {
+                                document.getElementById("story").innerHTML += "You did not want to give the creature your voice for it did not deserve it. You meerily scowled in its presence as Snuggles growled contiously. It was a standoff between all of you. One on the side of hatred, the other in blissful indifference. It followed here...wishing to preach its reminders to you...forevermore  ";
+                                // Other Option
+                              }
+                      });
 
-
+document.getElementById("makeyourchoiceplayerTwo").addEventListener("click", function() {
+                        const tenthChoiceAction = prompt(` You have had enough of his constant reminders. His chittering and tapping. What does he know? Your still in pain, and this creature continues to thrive off of it. It is time to put an end to this creature. It may pick and mame at your very being, but Snuggles deserves no such treatment. Your weapon of choice, dear Player. You may use it now.
+                            \n (Enter the number of your choice)
+                            \n 1. Throw the dog toy
+                            \n 2. Attack using the flashlight
+                            \n 3. Rush forward with the hatchet in hand`);
+                            
+                            if (tenthChoiceAction === "1") {
+                              document.getElementById("story").innerHTML += "You look to Snuggles, holding the small dog toy in hand. Snuggles wags eagerly as you wave it around. You look to the raven one last time, but this time with a smile. You were willing to let things be. The raven may leave someday or never will. You throw the toy in the other direction as Snuggles runs after it. The raven mearly watches curiously as you walk away from him...forevermore. ";
+                              // Other Option
+                            } else if (tenthChoiceAction === "2")  {
+                                document.getElementById("story").innerHTML += "You look to your flashlight, then to Snuggles once again. You nodded to him as you set Snuggles down. Snuggles prepares to attack as you grimace at the raven one final time. You ask it to leave. No more begging. The raven meerly tilts his head in curiousity. You demand it to leave now while it has the chance. It refuses to leave as you wave your flashlight at the creature angrily. It flaps upwards as you continue to show at it angrily. Snuggles provides support, his loud bark cracking even the bird's confidence. You hoped, as it flapped away, that it will never come back...forevermore. ";
+                                // Other Option
+                              }
+                              else {
+                                  document.getElementById("story").innerHTML += "You have had enough of this bird constantly being around. Your sanity can no longer take its existence. You held your hatchet in hand as you set Snuggles down. You did not give the bird the chance, as you pointed at him angrily. The bird shall bother you nevermore, you think as your dog rushes forward quickly to the bird's wings. Your companion bites true as the bird screeches in pain. You did not care for it finally feels your pain. All the better as you strike your hatchet cleanly against the chest. The infernal chittering. The tapping. It shall haunt you forever more as you continue to strike. The souless eyes shall now long show its evil gaze as you step back from the limp enemy before you. You and Snuggles are finally free...forevermore.  ";
+                                  // Other Option
+                                }
+                        });
 
 document.getElementById("restartGame").addEventListener("click", function() {
     location.reload();
