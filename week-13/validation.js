@@ -36,3 +36,5 @@ const newBtn = document.createElement("button");
 newBtn.innerHTML = "Check Password";
 newBtn.onclick = validatePassword;
 document.body.appendChild(newBtn);
+
+

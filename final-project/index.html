@@ -71,12 +71,15 @@
     <div>
       <label for="username">Username</label>
       <input type="username" name="username" id="username" />
+      <div id="usernameError"></div>
     </div>
     <div>
       <label for="password">Password</label>
       <input type="password" name="password" id="password" />
+      <div id="passwordError"></div>
     </div>
-    <button>Login</button>
+    <button onclick="validateLogin()">Login</button>
+
     <script src="dashboardaccess.js"></script>
   </body>
 </html>
