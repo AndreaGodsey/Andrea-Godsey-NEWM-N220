@@ -39,7 +39,7 @@
         padding: 0 12px;
       }
 
-      .task {
+      li {
         border: 2px solid black;
         border-radius: 5px;
         width: 300px;
@@ -68,18 +68,25 @@
   </head>
   <body>
     <h1>Personal Task Manager</h1>
-    <div>
-      <label for="username">Username</label>
-      <input type="username" name="username" id="username" />
-      <div id="usernameError"></div>
-    </div>
-    <div>
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
-      <div id="passwordError"></div>
-    </div>
-    <button onclick="validateLogin()">Login</button>
-
+    <section class="loginReference">
+      <div>
+        <label for="username">Username</label>
+        <input type="username" name="username" id="username" />
+        <div id="usernameError"></div>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <div id="passwordError"></div>
+      </div>
+      <button onclick="validateLogin()">Login</button>
+    </section>
+    <section class="dashboard">
+      <h2>Hello <span id="usernameHeader"></span></h2>
+      <button id="addingTask">Add Task</button>
+      <button style="margin-left: 95%" onclick="returnHome()">Logout</button>
+      <ul id="tasksList"></ul>
+    </section>
     <script src="dashboardaccess.js"></script>
   </body>
 </html>
