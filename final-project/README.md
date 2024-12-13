@@ -4,7 +4,7 @@ Andrea Godsey Final Project
 
 ### Github Link
 
-https://andreagodsey.github.io/Andrea-Godsey-NEWM-N220/final-project/
+https://andreagodsey.github.io/Andrea-Godsey-NEWM-N220/final-project/index.html
 
 ### The Major Features
 
